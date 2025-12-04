@@ -6,3 +6,8 @@
 - Luego creo el dominio de pruebas. Para acceder a él necesitamos entrar como administrador a C:\Windows\System32\drivers\etc\hosts y añadimos esas dos ultimas lineas, la ruta y el dominio.
 ![Dominio de pruebas](img/editarhost.PNG)
 
+## Generar un certificado SSL
+- Nos descargamos la imagen que genera certificados.
+![Descargar generador certificados](img/DescargarStakate.png)
+- Creamos certs en nuestra carpeta.
+![Certs](img/certs.png)
