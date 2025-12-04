@@ -17,12 +17,23 @@
 ## Configuracion
 - Ahora que tengo el certificado, le voy a decir a Nginx que use el certificado que he descargado.
 - Nos volvemos al .conf que habia creado, y lo configuro añadiendole las rutas creadas dentro del contenedor.
-![](img/Editarbloc.png)
+![Editar .test.conf](img/Editarbloc.png)
 - Levantamos el Docker para ver si funciona.
-![](img/levantardocker.png)
+![Levantar Docker](img/levantardocker.png)
 - Lo ejecutamos en local para asegurarnos http://juanma-davids.test:8080
-![](img/correcto.png)
+![Ver si funciona](img/correcto.png)
 
 ## Mapeo de puertos y montaje de volumen de certificados
 - Cambiamos los puertos
-![](img/Mapeo.png)
+![Cambio de puertos](img/Mapeo.png)
+
+## Docker Compose
+- En vez de iniciar con Docker Run, lo hariamos con Docker Compose. Creamos Docker Compose en bloc de notas y añadimos los puertos y los volumenes.
+![crear docker compose](img/creardockercompose.png)
+- Levantamos con docker compose
+![Compose Up](img/composeup.png)
+- Compruebo con HTTP
+![HTTP](img/HTTP.png)
+- Y compruebo con HTTPS, nos saldra que es privada, asi que e daremos a Avanzado, y luego entraremos, significa que funciona correctamente.
+![Privada](img/privada.png)
+![HTTPS](img/HTTPS.png)
