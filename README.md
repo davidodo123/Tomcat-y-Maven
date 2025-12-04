@@ -22,3 +22,7 @@
 ![](img/levantardocker.png)
 - Lo ejecutamos en local para asegurarnos http://juanma-davids.test:8080
 ![](img/correcto.png)
+
+## Mapeo de puertos y montaje de volumen de certificados
+- Cambiamos los puertos
+![](img/Mapeo.png)
