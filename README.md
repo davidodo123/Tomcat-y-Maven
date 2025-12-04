@@ -11,3 +11,6 @@
 ![Descargar generador certificados](img/DescargarStakate.png)
 - Creamos certs en nuestra carpeta.
 ![Certs](img/certs.png)
+- Generamos los certificados dentro de certs.
+![Generar Certificados](img/dockerrun.png)
+- 
