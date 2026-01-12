@@ -1,13 +1,13 @@
 * PRACTICA Tomcat y Maven: Aplicaciones Java
 
 * Instalamos OpenJDK
-![InstalarOpenJDK](img\instalarjdk.png)
+![InstalarOpenJDK](img/instalarjdk.png)
 - Instalamos Tomat
-![InstalarTomat](img\descargarTomat.png)
+![InstalarTomat](img/descargarTomat.png)
 - Creamos los grupos
-![Grupos](img\Creargrupos.png)
+![Grupos](img/Creargrupos.png)
 - Creamos el usuario
-![Usuario](img\Crearusuario.png)
+![Usuario](img/Crearusuario.png)
 - Arrancamos el servicio y lo comprobamos
 ![ArrancaryComprobar](img\arranque.png)
 ![Comprobar](img\running.png)
