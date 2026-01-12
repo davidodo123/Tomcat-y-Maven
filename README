@@ -20,3 +20,11 @@ Me daba error al principio en comprobar, he cambiado en el nano las restriccione
 [](img\modificarcontex.png)
 - Comprobamos si funciona, accedemos con la url http://192.168.56.10:8080/manager/html
 [](img\alumno.png)
+- Desplegamos tomcat1 y en la url, quitamos manager/html y lo cambiamos por tomcat1
+[](img\tomcat1.png)
+
+- instamalos Maven
+[](img\instalarmaven.png)
+- Configuramos maven, en concreto en la parte de servers.
+[](img\servers.png)
+
