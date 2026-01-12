@@ -43,3 +43,7 @@ Me daba error al principio en comprobar, he cambiado en el nano las restriccione
 * Tarea
 - Clonamos el repositorio.
 [](img/clonar.png)
+- modifico el Pom.xml para realizar la tarea final
+[](img\pluginnuevo.png)
+- Comprobamos si hemos hecho bien el juego, con esta ruta http://192.168.56.10:8080/juego
+[](img\juego.png)
