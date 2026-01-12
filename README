@@ -10,5 +10,13 @@ PRACTICA Tomcat y Maven: Aplicaciones Java
 - Arrancamos el servicio y lo comprobamos
 [!ArrancaryComprobar](img\arranque.png)
 [!Comprobar](img\running.png)
+[!Local](img\localhost.png)
+Para acceder a LocalHost, no se puede debido a que estamos trabajando por una maquina virtual, asi que en nuestra terminal escribimos hostanem -I y nos saldra la ID.
 Me daba error al principio en comprobar, he cambiado en el nano las restricciones de algunos parametros, se me quedaria asi el nano.
 [ErrorNano](img\modificarnano.png)
+- Despliegue manual mediante GUI
+- Ajustamos la directivas de seguridad con el usuario y sus contraseñas.
+[](img\añadirusuarioalnano.png)
+[](img\modificarcontex.png)
+- Comprobamos si funciona, accedemos con la url http://192.168.56.10:8080/manager/html
+[](img\alumno.png)
