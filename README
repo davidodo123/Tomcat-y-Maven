@@ -27,4 +27,8 @@ Me daba error al principio en comprobar, he cambiado en el nano las restriccione
 [](img\instalarmaven.png)
 - Configuramos maven, en concreto en la parte de servers.
 [](img\servers.png)
+- generamos una aplicacion de prueba.
+[](img\aplicacion.png)
+- modificamos el PIM.xml, añadimos plugins debajo de finalName.
+[](img\plugin.png)
 
