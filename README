@@ -31,4 +31,9 @@ Me daba error al principio en comprobar, he cambiado en el nano las restriccione
 [](img\aplicacion.png)
 - modificamos el PIM.xml, añadimos plugins debajo de finalName.
 [](img\plugin.png)
-
+- Lanzamos el despliegue automatico
+[](img\despliegue.png)
+- Volvemos a desplegarla
+[](img\redeploy.png)
+- Retiramos la aplicaicon
+[](img\undeploy.png)
