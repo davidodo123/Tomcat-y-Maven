@@ -1,5 +1,6 @@
-PRACTICA Tomcat y Maven: Aplicaciones Java
-- Instalamos OpenJDK
+* PRACTICA Tomcat y Maven: Aplicaciones Java
+
+* Instalamos OpenJDK
 [!InstalarOpenJDK](img\instalarjdk.png)
 - Instalamos Tomat
 [!InstalarTomat](img\descargarTomat.png)
@@ -14,7 +15,8 @@ PRACTICA Tomcat y Maven: Aplicaciones Java
 Para acceder a LocalHost, no se puede debido a que estamos trabajando por una maquina virtual, asi que en nuestra terminal escribimos hostanem -I y nos saldra la ID.
 Me daba error al principio en comprobar, he cambiado en el nano las restricciones de algunos parametros, se me quedaria asi el nano.
 [ErrorNano](img\modificarnano.png)
-- Despliegue manual mediante GUI
+
+* Despliegue manual mediante GUI
 - Ajustamos la directivas de seguridad con el usuario y sus contraseñas.
 [](img\añadirusuarioalnano.png)
 [](img\modificarcontex.png)
@@ -23,7 +25,7 @@ Me daba error al principio en comprobar, he cambiado en el nano las restriccione
 - Desplegamos tomcat1 y en la url, quitamos manager/html y lo cambiamos por tomcat1
 [](img\tomcat1.png)
 
-- instamalos Maven
+* Instamalos Maven
 [](img\instalarmaven.png)
 - Configuramos maven, en concreto en la parte de servers.
 [](img\servers.png)
