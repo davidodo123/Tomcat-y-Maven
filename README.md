@@ -1,6 +1,6 @@
-* PRACTICA Tomcat y Maven: Aplicaciones Java
+# PRACTICA Tomcat y Maven: Aplicaciones Java #
 
-* Instalamos OpenJDK
+## Instalamos OpenJDK ##
 ![InstalarOpenJDK](img/instalarjdk.png)
 - Instalamos Tomat
 ![InstalarTomat](img/instalarjdk.png)
@@ -16,7 +16,7 @@ Para acceder a LocalHost, no se puede debido a que estamos trabajando por una ma
 Me daba error al principio en comprobar, he cambiado en el nano las restricciones de algunos parametros, se me quedaria asi el nano.
 ![ErrorNano](img/modificarnano.png)
 
-* Despliegue manual mediante GUI
+## Despliegue manual mediante GUI ##
 - Ajustamos la directivas de seguridad con el usuario y sus contraseñas.
 ![usuarios](img/añadirusuarioalnano.png)
 ![Context.html](img/modificarcontex.png)
@@ -25,13 +25,13 @@ Me daba error al principio en comprobar, he cambiado en el nano las restriccione
 - Desplegamos tomcat1 y en la url, quitamos manager/html y lo cambiamos por tomcat1
 ![Tomcat1](img/tomcat1.png)
 
-* Instamalos Maven
+## Instamalos Maven ##
 ![maven](img/instalarmaven.png)
 - Configuramos maven, en concreto en la parte de servers.
 ![Servers](img/servers.png)
-- generamos una aplicacion de prueba.
+- Generamos una aplicacion de prueba.
 ![Aplicacion](img/aplicacion.png)
-- modificamos el PIM.xml, añadimos plugins debajo de finalName.
+- Modificamos el PIM.xml, añadimos plugins debajo de finalName.
 ![plugin](img/plugin.png)
 - Lanzamos el despliegue automatico
 ![despliegue](img/despliegue.png)
@@ -40,7 +40,7 @@ Me daba error al principio en comprobar, he cambiado en el nano las restriccione
 - Retiramos la aplicaicon
 ![undeploy](img/undeploy.png)
 
-* Tarea
+## Tarea ##
 - Clonamos el repositorio.
 ![Clonar](img/clonar.png)
 - modifico el Pom.xml para realizar la tarea final
