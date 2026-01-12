@@ -1,0 +1,49 @@
+* PRACTICA Tomcat y Maven: Aplicaciones Java
+
+* Instalamos OpenJDK
+![InstalarOpenJDK](img/instalarjdk.png)
+- Instalamos Tomat
+![InstalarTomat](img/instalarjdk.png)
+- Creamos los grupos
+![Grupos](img/Creargrupos.png)
+- Creamos el usuario
+![Usuario](img/Crearusuario.png)
+- Arrancamos el servicio y lo comprobamos
+![ArrancaryComprobar](img/arranque.png)
+![Comprobar](img/running.png)
+![Local](img/localhost.png)
+Para acceder a LocalHost, no se puede debido a que estamos trabajando por una maquina virtual, asi que en nuestra terminal escribimos hostanem -I y nos saldra la ID.
+Me daba error al principio en comprobar, he cambiado en el nano las restricciones de algunos parametros, se me quedaria asi el nano.
+![ErrorNano](img/modificarnano.png)
+
+* Despliegue manual mediante GUI
+- Ajustamos la directivas de seguridad con el usuario y sus contraseñas.
+![usuarios](img/añadirusuarioalnano.png)
+![Context.html](img/modificarcontex.png)
+- Comprobamos si funciona, accedemos con la url http://192.168.56.10:8080/manager/html
+![Alumno](img/alumno.png)
+- Desplegamos tomcat1 y en la url, quitamos manager/html y lo cambiamos por tomcat1
+![Tomcat1](img/tomcat1.png)
+
+* Instamalos Maven
+![maven](img/instalarmaven.png)
+- Configuramos maven, en concreto en la parte de servers.
+![Servers](img/servers.png)
+- generamos una aplicacion de prueba.
+![Aplicacion](img/aplicacion.png)
+- modificamos el PIM.xml, añadimos plugins debajo de finalName.
+![plugin](img/plugin.png)
+- Lanzamos el despliegue automatico
+![despliegue](img/despliegue.png)
+- Volvemos a desplegarla
+![Redeploy](img/redeploy.png)
+- Retiramos la aplicaicon
+![undeploy](img/undeploy.png)
+
+* Tarea
+- Clonamos el repositorio.
+![Clonar](img/clonar.png)
+- modifico el Pom.xml para realizar la tarea final
+![Pluginnuevo](img/pluginnuevo.png)
+- Comprobamos si hemos hecho bien el juego, con esta ruta http://192.168.56.10:8080/juego
+![Juego](img/juego.png)
