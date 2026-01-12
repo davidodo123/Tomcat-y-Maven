@@ -1,8 +1,14 @@
 PRACTICA Tomcat y Maven: Aplicaciones Java
-
 - Instalamos OpenJDK
 [!InstalarOpenJDK](img\instalarjdk.png)
 - Instalamos Tomat
 [!InstalarTomat](img\descargarTomat.png)
 - Creamos los grupos
 [!Grupos](img\Creargrupos.png)
+- Creamos el usuario
+[!Usuario](img\Crearusuario.png)
+- Arrancamos el servicio y lo comprobamos
+[!ArrancaryComprobar](img\arranque.png)
+[!Comprobar](img\running.png)
+Me daba error al principio en comprobar, he cambiado en el nano las restricciones de algunos parametros, se me quedaria asi el nano.
+[ErrorNano](img\modificarnano.png)
