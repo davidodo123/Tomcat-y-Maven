@@ -1,20 +1,20 @@
-# PRACTICA Tomcat y Maven: Aplicaciones Java #
+# PRACTICA Python, Flask y Gunicorn #
 
-## Instalamos OpenJDK ##
-- Se instala el kit de desarrollo de Java necesario para ejecutar Tomcat.
-![InstalarOpenJDK](img/instalarjdk.png)
+## Instalamos Python ##
+- b.
+![InstalarPython](img/InstalarPython.png)
 - Descarga y despliegue de los binarios del servidor Apache Tomcat 9.
-![InstalarTomat](img/instalarjdk.png)
+![InstalarPipe](img/InstalarPipe.png)
 - Se crean grupos de sistema y un usuario específico para ejecutar el servicio de Tomcat con los permisos mínimos necesarios.
-![Grupos](img/Creargrupo.png)
-![Usuario](img/Crearusuario.png)
+![comprobarpipe](img/comprobarpipe.png)
+![Usuario](img/doten.png)
 - Se inicia el servicio mediante systemctl y se comprueba que su estado sea "active (running)".
-![ArrancaryComprobar](img/arranque.png)
-![Comprobar](img/running.png)
-![Local](img/localhost.png)
+![ArrancaryComprobar](img/doten.png)
+![Comprobar](img/permisos.png)
+![Local](img/nano.png)
 Para acceder al servidor desde la máquina anfitriona, Windows en mi caso, no se puede utilizar localhost debido al aislamiento de la máquina virtual. Se utiliza el comando hostname -I para obtener la dirección IP de la red privada. Inicialmente se detectaron restricciones de acceso que fueron solventadas modificando los parámetros de seguridad en los archivos de configuración.
 Me daba error al principio en comprobar, he cambiado en el nano las restricciones de algunos parametros, se me quedaria asi el nano.
-![ErrorNano](img/modificarnano.png)
+![ErrorNano](img/shell.png)
 
 ## Despliegue manual mediante GUI ##
 Para gestionar aplicaciones mediante la web, es necesario configurar los roles de administración y permitir el tráfico desde redes externas.
