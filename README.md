@@ -38,7 +38,7 @@
 ## Crear el servicio en Systemd ##
 Para que la aplicación no se detenga al cerrar la terminal, hay que crear un servicio del sistema.
 - Creamos el archivo y ajustamos el contenido:
-![ErrorNano](img/sys.png)
+![ErrorNano](img/ruta.png)
 - Y iniciamos el servidor:
 ![ErrorNano](img/iniciar.png)
 
@@ -51,3 +51,6 @@ Ahora configuramos Nginx para que reciba las peticiones por el puerto 80 y las p
 ![ErrorNano](img/log.png)
 - Para finalizar reiniciamos Nginx:
 ![ErrorNano](img/reiniciar.png)
+![ErrorNano](img/veri.png)
+
+## Configurar el archivo HOSTS en Windows ##
