@@ -47,3 +47,7 @@ Para que la aplicación no se detenga al cerrar la terminal, hay que crear un se
 Ahora configuramos Nginx para que reciba las peticiones por el puerto 80 y las pase al archivo app.sock que creó Gunicorn.
 - Instalamos Nginx
 ![ErrorNano](img/Nginx.png)
+- Luego creamos el archivo sites-available, y lo configuramos para que responda a app.izv y www.app.izv:
+![ErrorNano](img/log.png)
+- Para finalizar reiniciamos Nginx:
+![ErrorNano](img/reiniciar.png)
