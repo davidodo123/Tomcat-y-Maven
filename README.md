@@ -51,6 +51,8 @@ Ahora configuramos Nginx para que reciba las peticiones por el puerto 80 y las p
 ![ErrorNano](img/log.png)
 - Para finalizar reiniciamos Nginx:
 ![ErrorNano](img/reiniciar.png)
-![ErrorNano](img/veri.png)
+
 
 ## Configurar el archivo HOSTS en Windows ##
+- Desplegamos la web con la ruta http://app.izv/:
+![ErrorNano](img/desplegado.png)
