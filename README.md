@@ -64,3 +64,9 @@ Ahora configuramos Nginx para que reciba las peticiones por el puerto 80 y las p
 ![ErrorNano](img/virtu.png)
 - Creamos un nuevo servicio que se llamara ampliacion.service:
 ![ErrorNano](img/servicio.png)
+- Modificamos el archivo de Nginx, para que lea el puerto 5000:
+![ErrorNano](img/modi.png)
+- Finalmente ejecutamos la aplicacion, hay que tener asgurado de tener instaladas las dependencias y lanza Gunicorn desde la carpeta del nuevo repositorio:
+![ErrorNano](img/workers.png)
+- Comprobamos que este bien con esta ruta gunicorn --workers 4 --bind 0.0.0.0:5000 wsgi:app:
+![ErrorNano](img/appp.png)
