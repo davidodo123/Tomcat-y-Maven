@@ -56,3 +56,11 @@ Ahora configuramos Nginx para que reciba las peticiones por el puerto 80 y las p
 ## Configurar el archivo HOSTS en Windows ##
 - Desplegamos la web con la ruta http://app.izv/:
 ![ErrorNano](img/desplegado.png)
+
+## Tarea de amplacion ##
+- Descargamos el proyecto con git clone.
+- Le damos permisos y ajustamos el entorno virtual:
+![ErrorNano](img/permis.png)
+![ErrorNano](img/virtu.png)
+- Creamos un nuevo servicio que se llamara ampliacion.service:
+![ErrorNano](img/servicio.png)
