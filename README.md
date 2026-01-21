@@ -10,22 +10,27 @@
 ![comprobarpipe](img/comprobarpipe.png)
 - Instalamos dotenv:
 ![Usuario](img/doten.png)
-- Y le damos permisos para el root, sin esto no funcionaria bien:
-![Comprobar](img/permisos.png)
+
 - Configurar el PATH para reconocer Pipenv:
 ![Local](img/nano.png)
-![ErrorNano](img/shell.png)
 
-## Entorno de la Aplicación ##
-Para gestionar aplicaciones mediante la web, es necesario configurar los roles de administración y permitir el tráfico desde redes externas.
-- Se edita el archivo tomcat-users.xml para definir el usuario alumno con los roles manager-gui y admin-gui.
-![usuarios](img/añadirusuarioalnano.png)
-- Se modifica el archivo context.xml para permitir conexiones desde cualquier IP mediante la configuración de la Valve RemoteAddrValve.
-![Context.html](img/modificarcontex.png)
-- Comprobamos si funciona, accedemos con la url http://192.168.56.10:8080/manager/html
-![Alumno](img/alumno.png)
-- Se realiza la subida manual del archivo tomcat1.war. Tras el despliegue, la aplicación es accesible cambiando la ruta de acceso en el navegador.
-![Tomcat1](img/tomcat1.png)
+
+- Creamos la estructura de directorios y gestionamos los permisos para el servidor web:
+![usuarios](img/app.png)
+- Y le damos permisos para el root, sin esto no funcionaria bien:
+![Comprobar](img/permisos.png)
+
+
+## Configuracion de Python y Flask ##
+- Iniciamos el entorno 
+![ErrorNano](img/shell.png)
+- Dentro del entorno descargamos flask
+![ErrorNano](img/flask.png)
+- Creamos los archivos .py
+![ErrorNano](img/creamospy.png)
+- Abrimso application.py, wsgi.py y los editamos
+![ErrorNano](img/apli.png)
+![ErrorNano](img/ws.png)
 
 ## Instamalos Maven ##
 Maven permite compilar, empaquetar y desplegar aplicaciones de forma automática sin usar la interfaz web.
