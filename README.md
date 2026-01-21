@@ -1,22 +1,22 @@
 # PRACTICA Python, Flask y Gunicorn #
 
 ## Instalamos Python ##
-- b.
+- Dentro de la máquina virtual, instalamos el gestor de paquetes de Python y la herramienta de entornos virtuales:
+- Actualizar repositorios e instalar pip:
 ![InstalarPython](img/InstalarPython.png)
-- Descarga y despliegue de los binarios del servidor Apache Tomcat 9.
+- Instalar pipenv:
 ![InstalarPipe](img/InstalarPipe.png)
-- Se crean grupos de sistema y un usuario específico para ejecutar el servicio de Tomcat con los permisos mínimos necesarios.
+- Comprobamos que este instalado:
 ![comprobarpipe](img/comprobarpipe.png)
+- Instalamos dotenv:
 ![Usuario](img/doten.png)
-- Se inicia el servicio mediante systemctl y se comprueba que su estado sea "active (running)".
-![ArrancaryComprobar](img/doten.png)
+- Y le damos permisos para el root, sin esto no funcionaria bien:
 ![Comprobar](img/permisos.png)
+- Configurar el PATH para reconocer Pipenv:
 ![Local](img/nano.png)
-Para acceder al servidor desde la máquina anfitriona, Windows en mi caso, no se puede utilizar localhost debido al aislamiento de la máquina virtual. Se utiliza el comando hostname -I para obtener la dirección IP de la red privada. Inicialmente se detectaron restricciones de acceso que fueron solventadas modificando los parámetros de seguridad en los archivos de configuración.
-Me daba error al principio en comprobar, he cambiado en el nano las restricciones de algunos parametros, se me quedaria asi el nano.
 ![ErrorNano](img/shell.png)
 
-## Despliegue manual mediante GUI ##
+## Entorno de la Aplicación ##
 Para gestionar aplicaciones mediante la web, es necesario configurar los roles de administración y permitir el tráfico desde redes externas.
 - Se edita el archivo tomcat-users.xml para definir el usuario alumno con los roles manager-gui y admin-gui.
 ![usuarios](img/añadirusuarioalnano.png)
