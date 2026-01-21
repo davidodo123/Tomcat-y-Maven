@@ -31,29 +31,19 @@
 - Abrimso application.py, wsgi.py y los editamos
 ![ErrorNano](img/apli.png)
 ![ErrorNano](img/ws.png)
+- Comprobamos si Gunicorn arranca.
+![ErrorNano](img/gunicorn.png)
+![ErrorNano](img/desplegada.png)
 
-## Instamalos Maven ##
-Maven permite compilar, empaquetar y desplegar aplicaciones de forma automática sin usar la interfaz web.
-- Se descarga el gestor de dependencias en la máquina Debian.
-![maven](img/instalarmaven.png)
-- Se edita settings.xml de Maven para incluir las credenciales del usuario con rol manager-script.
-![Servers](img/servers.png)
-- Creación de una aplicación web de prueba mediante el uso de arquetipos de Maven.
-![Aplicacion](img/aplicacion.png)
-- Se integra el plugin tomcat7-maven-plugin para habilitar la comunicación entre Maven y el servidor Tomcat.
-![plugin](img/plugin.png)
-- Se ejecutan comandos de despliegue (deploy), actualización de la aplicación (redeploy) y retirada de la misma (undeploy).
-![despliegue](img/despliegue.png)
-- Volvemos a desplegarla
-![Redeploy](img/redeploy.png)
-- Retiramos la aplicaicon
-![undeploy](img/undeploy.png)
+## Crear el servicio en Systemd ##
+Para que la aplicación no se detenga al cerrar la terminal, hay que crear un servicio del sistema.
+- Creamos el archivo y ajustamos el contenido:
+![ErrorNano](img/sys.png)
+- Y iniciamos el servidor:
+![ErrorNano](img/iniciar.png)
 
-## Tarea ##
-Como ejercicio final se realiza el ciclo completo: obtención de código fuente, cambio de versión y despliegue automático.
-- Se descarga el código fuente del juego "Rock-Paper-Scissors" desde GitHub y se selecciona la rama patch-1.
-![Clonar](img/clonar.png)
-- Adaptación del pom.xml del juego para incluir las credenciales de nuestro servidor local.
-![Pluginnuevo](img/pluginnuevo.png)
-- Acceso final a la aplicación funcionando correctamente en la dirección http://192.168.56.10:8080/juego.
-![Juego](img/juego.png)
+
+## Configurar Nginx como Proxy Inverso ##
+Ahora configuramos Nginx para que reciba las peticiones por el puerto 80 y las pase al archivo app.sock que creó Gunicorn.
+- Instalamos Nginx
+![ErrorNano](img/Nginx.png)
